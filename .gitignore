@@ -1,0 +1,20 @@
+# IDE
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Maven / Compilation
+target/
+*.class
+*.jar
+*.war
+out/
+
+# Tomcat / Server
+*.log
+
+# Misc
+.mvn/
+mvnw
+mvnw.cmd
