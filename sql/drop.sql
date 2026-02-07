@@ -1,0 +1,16 @@
+DROP TABLE if exists droits_acces;
+DROP TABLE if exists amis;
+DROP TABLE if exists favoris;
+DROP TABLE if exists invitations;
+DROP TABLE if exists project_chat;
+DROP TABLE if exists demande_ami;
+DROP TABLE if exists notifications;
+DROP TABLE if exists acces_public;
+DROP TABLE if exists chat_messages;
+DROP TABLE if exists droits_acces_groupe;
+DROP TABLE if exists membres_groupe;
+DROP TABLE if exists groupes;
+DROP TABLE if exists versions_fichier;
+DROP TABLE if exists fichiers;
+DROP TABLE if exists dossiers;
+DROP TABLE if exists utilisateurs;

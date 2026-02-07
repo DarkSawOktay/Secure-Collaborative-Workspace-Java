@@ -1,20 +1,19 @@
-# IDE
+# IDE Files
 .idea/
 *.iml
 .vscode/
 .DS_Store
 
-# Maven / Compilation
+# Maven & Build
 target/
+out/
 *.class
 *.jar
 *.war
-out/
-
-# Tomcat / Server
-*.log
-
-# Misc
 .mvn/
 mvnw
 mvnw.cmd
+
+# Logs & System
+*.log
+Thumbs.db

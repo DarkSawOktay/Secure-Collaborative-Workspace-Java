@@ -66,7 +66,6 @@ Import the SQL scripts located in `sql/` folder into your MySQL database:
 ```sql
 source sql/init.sql;
 source sql/user.sql;
-
 ```
 
 
@@ -75,7 +74,6 @@ Update `src/main/java/models/DBConnection.java` with your database credentials.
 4. **Build & Deploy:**
 ```bash
 mvn clean package
-
 ```
 
 

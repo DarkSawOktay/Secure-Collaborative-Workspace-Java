@@ -1,0 +1,49 @@
+/* Styles simplifiés pour le drag & drop */
+
+/* Élément en cours de glisser */
+.dragging {
+    opacity: 0.5;
+    cursor: grabbing;
+}
+
+.item-being-dragged {
+    opacity: 0.6;
+}
+
+/* Cible potentielle pour le dépôt */
+.potential-drop-target {
+    position: relative;
+}
+
+.potential-drop-target::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border: 1px dashed rgba(59, 130, 246, 0.3);
+    border-radius: 4px;
+    pointer-events: none;
+}
+
+/* Cible actuelle de dépôt (survol) */
+.drop-target {
+    background-color: rgba(59, 130, 246, 0.1) !important;
+    border: 1px dashed rgba(59, 130, 246, 0.8) !important;
+    border-radius: 4px;
+}
+
+.dark .drop-target {
+    background-color: rgba(59, 130, 246, 0.2) !important;
+}
+
+/* Styles d'interdiction */
+.no-drop {
+    cursor: no-drop !important;
+    background-color: rgba(239, 68, 68, 0.1) !important;
+    border: 1px solid rgba(239, 68, 68, 0.4) !important;
+}
+
+/* Notification */
+.drag-drop-notification {
+    z-index: 9999;
+    transition: opacity 0.3s ease;
+}
