@@ -53,18 +53,12 @@ Développement du module de Chat et de Notifications en temps réel.
 * Apache Tomcat 10+
 * MySQL Server
 
-### Prerequisites
-* JDK 17+
-* Apache Tomcat 10+
-* MySQL Server
-
 ### Installation
 
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/DarkSawOktay/Secure-Collaborative-Workspace-Java.git](https://github.com/DarkSawOktay/Secure-Collaborative-Workspace-Java.git)
 
-```
 
 2. **Database Setup:**
 Import the SQL scripts located in `sql/` folder into your MySQL database:
