@@ -70,8 +70,10 @@ source sql/user.sql;
 
 
 3. **Configuration:**
-Update `src/main/java/models/DBConnection.java` with your database credentials.
-4. **Build & Deploy:**
+For security reasons, this project uses Environment Variables.
+Set the `DB_PASSWORD` variable on your machine, or update defaults in `src/main/java/models/DBConnection.java` (for local dev only).
+
+5. **Build & Deploy:**
 ```bash
 mvn clean package
 ```
