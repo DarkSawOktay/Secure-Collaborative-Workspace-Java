@@ -53,8 +53,45 @@ Développement du module de Chat et de Notifications en temps réel.
 * Apache Tomcat 10+
 * MySQL Server
 
+### Prerequisites
+* JDK 17+
+* Apache Tomcat 10+
+* MySQL Server
+
 ### Installation
 
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/DarkSawOktay/Secure-Collaborative-Workspace-Java.git](https://github.com/DarkSawOktay/Secure-Collaborative-Workspace-Java.git)
+
+```
+
+2. **Database Setup:**
+Import the SQL scripts located in `sql/` folder into your MySQL database:
+```sql
+source sql/init.sql;
+source sql/user.sql;
+
+```
+
+
+3. **Configuration:**
+Update `src/main/java/models/DBConnection.java` with your database credentials.
+4. **Build & Deploy:**
+```bash
+mvn clean package
+
+```
+
+
+Deploy the generated `.war` file to your Tomcat `webapps` folder.
+5. **Access:**
+Open browser at `http://localhost:8080/Secure-Collaborative-Workspace-Java`
+
+---
+
+<div align="center">
+<sub>Portfolio Project by Oktay Gencer</sub>
+</div>
+
+```
