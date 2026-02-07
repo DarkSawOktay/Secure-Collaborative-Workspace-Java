@@ -6,7 +6,7 @@
   ![Java](https://img.shields.io/badge/Backend-Java%20EE-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
   ![WebSockets](https://img.shields.io/badge/Network-WebSockets-000000?style=for-the-badge&logo=socket.io&logoColor=white)
   ![Security](https://img.shields.io/badge/Security-RBAC%20%26%20Auth-red?style=for-the-badge&logo=security&logoColor=white)
-  ![MySQL](https://img.shields.io/badge/Database-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+  ![MariaDB](https://img.shields.io/badge/Database-MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
 
 </div>
 
