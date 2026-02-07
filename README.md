@@ -56,8 +56,9 @@ Développement du module de Chat et de Notifications en temps réel.
 ### Installation
 
 1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/DarkSawOktay/Secure-Collaborative-Workspace-Java.git](https://github.com/DarkSawOktay/Secure-Collaborative-Workspace-Java.git)
+```bash
+git clone [https://github.com/DarkSawOktay/Secure-Collaborative-Workspace-Java.git](https://github.com/DarkSawOktay/Secure-Collaborative-Workspace-Java.git)
+```
 
 
 2. **Database Setup:**
@@ -87,5 +88,3 @@ Open browser at `http://localhost:8080/Secure-Collaborative-Workspace-Java`
 <div align="center">
 <sub>Portfolio Project by Oktay Gencer</sub>
 </div>
-
-```
