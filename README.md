@@ -40,7 +40,7 @@ Développement du module de Chat et de Notifications en temps réel.
 ## 🛠️ Tech Stack
 
 * **Backend:** Java 17, Jakarta EE (Servlets), WebSockets.
-* **Database:** MySQL 8.0.
+* **Database:** MariaDB (MySQL-compatible).
 * **Frontend:** JSP, JavaScript (AJAX & WebSocket API), CSS3.
 * **Tools:** Maven, Tomcat 10, Git.
 
@@ -51,18 +51,18 @@ Développement du module de Chat et de Notifications en temps réel.
 ### Prerequisites
 * JDK 17+
 * Apache Tomcat 10+
-* MySQL Server
+* MariaDB Server
 
 ### Installation
 
 1. **Clone the repository:**
 ```bash
-git clone [https://github.com/DarkSawOktay/Secure-Collaborative-Workspace-Java.git](https://github.com/DarkSawOktay/Secure-Collaborative-Workspace-Java.git)
+git clone https://github.com/DarkSawOktay/Secure-Collaborative-Workspace-Java.git
 ```
 
 
 2. **Database Setup:**
-Import the SQL scripts located in `sql/` folder into your MySQL database:
+Import the SQL scripts located in `sql/` folder into your MariaDB database:
 ```sql
 source sql/init.sql;
 source sql/user.sql;
@@ -73,7 +73,7 @@ source sql/user.sql;
 For security reasons, this project uses Environment Variables.
 Set the `DB_PASSWORD` variable on your machine, or update defaults in `src/main/java/models/DBConnection.java` (for local dev only).
 
-5. **Build & Deploy:**
+4. **Build & Deploy:**
 ```bash
 mvn clean package
 ```
